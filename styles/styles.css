@@ -1,18 +1,51 @@
+/* WDD130 Home Page CSS */
+
+/* General styles */
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+/* Header and navigation */
+header {
+    background-color: #4682B4;
+    padding: 10px;
+    color: white;
+}
+
+nav {
+    background-color: #4682B4;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+}
+
+/* Main content */
 main {
     max-width: 840px;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #333;
 }
 
 /* Profile image inside main */
 main img {
     width: 150px;
     height: auto;
+    border: 2px solid #333;
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 
-/* Aside styling */
+/* Aside section */
 aside {
     width: 300px;
     margin: 20px;
@@ -22,12 +55,12 @@ aside {
     color: #333;
 }
 
-/* Aside image */
 aside img {
     width: 200px;
     height: auto;
 }
 
+/* Paragraphs */
 p {
     padding: 0;
 }
@@ -37,4 +70,5 @@ footer {
     margin-top: 20px;
     border-top: 1px solid #000;
     text-align: center;
+    padding: 10px;
 }
