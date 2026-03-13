@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    max-width: 840px;
+}
+
+/* Profile image inside main */
+main img {
+    width: 150px;
+    height: auto;
+}
+
+/* Aside styling */
+aside {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Aside image */
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+p {
+    padding: 0;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
