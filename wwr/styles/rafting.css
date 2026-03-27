@@ -29,7 +29,6 @@ header, main, footer {
   --heading-font: Arial, sans-serif;
   --body-font: Verdana, sans-serif;
 }
-}
 
 /* Headings */
 h1, h2 {
@@ -118,5 +117,98 @@ nav, p, section, article {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+  /* HEADER GRID + NAV FLEX */
+header {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.logo {
+  width: 100px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero article {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* HISTORY SECTION */
+.history-content {
+  display: grid;
+  grid-template-columns: 1fr 200px 1fr;
+  gap: 20px;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.history-content img {
+  width: 100%;
+  height: auto;
+}
+
+/* ADVENTURES SECTION - 5 IMAGES HORIZONTALLY */
+.adventure-gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.adventure-gallery figure {
+  text-align: center;
+  flex: 1; /* ensures all 5 figures share the row equally */
+}
+
+.adventure-gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/* FOOTER - SOCIAL ICONS RIGHT ALIGNED */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+footer .social {
+  display: flex;
+  gap: 10px;
+}
+
+footer .social img {
+  width: 30px;
+  height: auto;
 }
 }
