@@ -211,4 +211,37 @@ footer .social img {
   width: 30px;
   height: auto;
 }
+
+  .contact-info, .employees, .contact-form {
+  margin: 20px 0;
+}
+
+.employees {
+  display: flex;
+  gap: 20px;
+}
+
+.employees img {
+  width: 150px;
+  height: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+button {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
 }
