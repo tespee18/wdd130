@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Learn about our white water rafting adventures, history, and mission.">
+  <meta name="description" content="Contact our rafting company for reservations, questions, and adventure planning. Reach out to our team today.">
   <meta name="author" content="Testimony Ezekwe">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us | Rafting Company</title>
 
-<meta name="description" content="Contact our rafting company for inquiries, reservations, and adventure planning. Get in touch with our team today.">
-
+  
   <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -17,17 +16,17 @@
 <header>
   <img src="images/logo.png" alt="Rafting Logo" class="logo">
 
-  <nav class="main-nav">
-    <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="trips.html">Trips</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+  <nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="trips.html">Trips</a>
+  <a href="contact.html">Contact Us</a>
+</nav>
 </header>
 
 <main>
 
-  <h1>Contact Us</h1>
+  <h1>Contact Us | White Water Rafting Company</h1>
 
   <!-- Company Information -->
   <section class="contact-info">
@@ -83,47 +82,42 @@
       <!-- Purpose -->
       <p>Purpose of Message:</p>
 
-      <label>
-        <input type="radio" name="purpose" value="general" required>
-        General Inquiry
-      </label>
+<input type="radio" id="general" name="purpose" value="general" required>
+<label for="general">General Inquiry</label>
 
-      <label>
-        <input type="radio" name="purpose" value="reservation">
-        Reservation Question
-      </label>
+<input type="radio" id="reservation" name="purpose" value="reservation">
+<label for="reservation">Reservation Question</label>
 
-      <label>
-        <input type="radio" name="purpose" value="suggestion">
-        Website Suggestion
-      </label>
+<input type="radio" id="suggestion" name="purpose" value="suggestion">
+<label for="suggestion">Website Suggestion</label>
 
+<input type="checkbox" id="subscribe" name="subscribe">
+<label for="subscribe">Please subscribe me to the monthly newsletter</label>
       <!-- Message -->
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
+<label for="message">Message:</label>
+<textarea id="message" name="message" required></textarea>
 
-      <!-- Newsletter -->
-      <label>
-        <input type="checkbox" name="subscribe">
-        Please subscribe me to the monthly newsletter
-      </label>
-
-      <!-- Submit -->
-      <button type="submit">Send Message</button>
-
+<!-- Submit Button -->
+<button type="submit">Send Message</button>
     </form>
   </section>
 
 </main>
   
 <footer>
-  <p>&copy; 2026 White Water Rafting Co. | Testimony Ezekwe</p>
 
-  <div class="social">
-    <img src="images/facebook.png" alt="Facebook">
-    <img src="images/twitter.png" alt="Twitter">
-    <img src="images/instagram.png" alt="Instagram">
-  </div>
+  <nav class="socialmedia">
+  <a href="#">
+    <img src="images/facebook.png" alt="Follow us on Facebook">
+  </a>
+  <a href="#">
+    <img src="images/twitter.png" alt="Follow us on Twitter">
+  </a>
+  <a href="#">
+    <img src="images/instagram.png" alt="Follow us on Instagram">
+  </a>
+</nav>
+  <p>&copy; 2026 White Water Rafting Co. | Testimony Ezekwe</p>
 </footer>
 
 </body>
